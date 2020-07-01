@@ -44,12 +44,12 @@ namespace Inheritance
              */
             var myReptile = new Reptile();
 
-            myReptile.doesSwim = true;
+            myReptile.DoesSwim = true;
             myReptile.HasTail = true;
             myReptile.NumberOfLegs = 4;
-            myReptile.hasScales = true;
+            myReptile.HasScales = true;
 
-            Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.HasTail} and it has {myReptile.NumberOfLegs} legs. So does he swim? {myReptile.doesSwim}");
+            Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.HasTail} and it has {myReptile.NumberOfLegs} legs. So does he swim? {myReptile.DoesSwim}");
 
 
 

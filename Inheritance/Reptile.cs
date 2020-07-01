@@ -11,9 +11,9 @@ namespace Inheritance
 
         }
 
-        public int length { get; set; }
-        public bool hasScales { get; set; }
-        public bool doesSwim { get; set; }
+        public int Length { get; set; }
+        public bool HasScales { get; set; }
+        public bool DoesSwim { get; set; }
 
 
 
