@@ -29,11 +29,30 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            var myBird = new Bird();
+            myBird.doesFly = true;
+            myBird.featherColor = "yellow and red";
+            myBird.isPredator = true;
+
+            Console.WriteLine($"My Bird is so pretty it has {myBird.featherColor} feathers, and is a {myBird.isPredator} Predator. So does he fly? {myBird.doesFly}");
+
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            var myReptile = new Reptile();
+
+            myReptile.doesSwim = true;
+            myReptile.hasTail = true;
+            myReptile.numberOfLegs = 4;
+            myReptile.hasScales = true;
+
+            Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.hasTail} and it has {myReptile.numberOfLegs} legs. So does he swim? {myReptile.doesSwim}");
+
+
+
         }
     }
 }
