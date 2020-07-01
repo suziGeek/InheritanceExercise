@@ -29,11 +29,12 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
-            var myBird = new Bird();
-            myBird.DoesFly = true;
-            myBird.FeatherColor = "yellow and red";
-            myBird.IsPredator = true;
-
+            var myBird = new Bird()
+            {
+                DoesFly = true,
+                FeatherColor = "yellow and red",
+                IsPredator = true
+            };
             Console.WriteLine($"My Bird is so pretty it has {myBird.FeatherColor} feathers, and is a {myBird.IsPredator} Predator. So does he fly? {myBird.DoesFly}");
 
 
@@ -42,12 +43,13 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-            var myReptile = new Reptile();
-
-            myReptile.DoesSwim = true;
-            myReptile.HasTail = true;
-            myReptile.NumberOfLegs = 4;
-            myReptile.HasScales = true;
+            var myReptile = new Reptile()
+            {
+                DoesSwim = true,
+                HasTail = true,
+                NumberOfLegs = 4,
+                HasScales = true
+            };
 
             Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.HasTail} and it has {myReptile.NumberOfLegs} legs. So does he swim? {myReptile.DoesSwim}");
 
