@@ -30,11 +30,11 @@ namespace Inheritance
              */
 
             var myBird = new Bird();
-            myBird.doesFly = true;
-            myBird.featherColor = "yellow and red";
-            myBird.isPredator = true;
+            myBird.DoesFly = true;
+            myBird.FeatherColor = "yellow and red";
+            myBird.IsPredator = true;
 
-            Console.WriteLine($"My Bird is so pretty it has {myBird.featherColor} feathers, and is a {myBird.isPredator} Predator. So does he fly? {myBird.doesFly}");
+            Console.WriteLine($"My Bird is so pretty it has {myBird.FeatherColor} feathers, and is a {myBird.IsPredator} Predator. So does he fly? {myBird.DoesFly}");
 
 
             /*Create an object of your Reptile class
@@ -45,11 +45,11 @@ namespace Inheritance
             var myReptile = new Reptile();
 
             myReptile.doesSwim = true;
-            myReptile.hasTail = true;
-            myReptile.numberOfLegs = 4;
+            myReptile.HasTail = true;
+            myReptile.NumberOfLegs = 4;
             myReptile.hasScales = true;
 
-            Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.hasTail} and it has {myReptile.numberOfLegs} legs. So does he swim? {myReptile.doesSwim}");
+            Console.WriteLine($"My Lizard is so cool! does it have a tail? {myReptile.HasTail} and it has {myReptile.NumberOfLegs} legs. So does he swim? {myReptile.doesSwim}");
 
 
 

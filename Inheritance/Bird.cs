@@ -10,10 +10,10 @@ namespace Inheritance
         { 
         }
 
-        public string featherColor { get; set; }
-        public bool isPredator { get; set; }
-        public bool doesFly { get; set; }
-        public bool waterFoul { get; set; }
+        public string FeatherColor { get; set; }
+        public bool IsPredator { get; set; }
+        public bool DoesFly { get; set; }
+        public bool WaterFoul { get; set; }
         
     }
 }

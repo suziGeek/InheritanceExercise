@@ -11,10 +11,10 @@ namespace Inheritance
 
         }
 
-        public int numberOfLegs { get; set; }
-        public bool makesNoise { get; set; }
-        public int numberOfEyes { get; set; }
-        public bool hasTail { get; set; }
+        public int NumberOfLegs { get; set; }
+        public bool MakesNoise { get; set; }
+        public int NumberOfEyes { get; set; }
+        public bool HasTail { get; set; }
 
     }
 }
